@@ -1,0 +1,91 @@
+header {
+  background-color: black;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+header div {
+  display: flex;
+  gap: 10px;
+}
+
+header > div.wrapper > div.logo {
+}
+header > div.wrapper > div.logo > img {
+  width: 90%;
+}
+
+header > div.wrapper > div.lang {
+  padding: 10px;
+}
+header > div.wrapper > div.lang > div.select-language {
+}
+header > div.wrapper > div.lang > div.select-language > div {
+}
+header > div.wrapper > div.lang > div.select-language > div a {
+}
+header > div.wrapper > div.lang > div.select-language > div.language1 > a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+header
+  > div.wrapper
+  > div.lang
+  > div.select-language
+  > div.language1
+  > a:hover {
+}
+header > div.wrapper > div.lang > div.select-language > div.language2 > a {
+  color: rgba(255, 255, 0, 0.789);
+  text-decoration: none;
+}
+header
+  > div.wrapper
+  > div.lang
+  > div.select-language
+  > div.language2
+  > a:hover {
+}
+
+header > div.wrapper > div.nav {
+}
+header > div.wrapper > div.nav > a {
+  color: #f5f5f5;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 14.5px;
+}
+header > div.wrapper > div.nav > a:hover {
+  text-decoration: underline;
+}
+header > div.wrapper > div.nav > a.selected1 {
+  animation-name: exam;
+  animation-duration: 1.5s;
+  animation-delay: 2s;
+  animation-direction: initial;  
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+header > div.wrapper > div.nav > a.selected1:hover {
+}
+header > div.wrapper > div.nav > a.selected2 {
+  font-size: 18px;
+}
+header > div.wrapper > div.nav > a.selected2:hover {
+}
+
+header > div.wrapper > div.nav > a.selected2 > i {
+  color: #f5f5f5;
+}
+header > div.wrapper > div.nav > a.selected2 > i:hover {
+}
+
+@keyframes exam {
+  from {
+    color: #f5f5f5;
+  }
+  to {
+    color: cyan;
+  }
+}
